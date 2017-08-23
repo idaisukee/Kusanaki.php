@@ -10,8 +10,10 @@
 	use Kusanaki\Kusanaki;
 	use GuzzleHttp\Client;
 
-	$filename='/tmp/hh';
-	$content_type = 'text/json';
+	$filename = $argv[1];
+	$parent = $argv[2];
+	$content_type = $argv[3];
+	
 	$k = new Kusanaki();
-	$k->multi($filename, null, $content_type);
+	$k->multi($filename, $parent, $content_type);
 
