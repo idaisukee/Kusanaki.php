@@ -10,5 +10,6 @@
 	use Kusanaki\Kusanaki;
 	use GuzzleHttp\Client;
 
+	$q = $argv[1];
 	$k = new Kusanaki();
-	$k->search('消化器');
+	$k->search($q);
