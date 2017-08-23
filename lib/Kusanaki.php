@@ -49,7 +49,7 @@ namespace Kusanaki;
 
 			$metadata_arr = [
 				'name' => $basename,
-				'parents' => $parent,
+				'parents' => [ $parent ],
 			];
 
 			$metadata = json_encode($metadata_arr);
