@@ -219,7 +219,7 @@
                 "source": "https://github.com/idaisukee/Sinsituwoka.php/tree/master",
                 "issues": "https://github.com/idaisukee/Sinsituwoka.php/issues"
             },
-            "time": "2017-08-23 05:11:48"
+            "time": "2017-08-23T05:11:48+00:00"
         },
         {
             "name": "psr/http-message",
